@@ -2,5 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/octecsol/public_html/
-    - /bin/cd ..
-    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R categories $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R plugins $DEPLOYPATH
+    - /bin/cp -R tags $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index.xml $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
