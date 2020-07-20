@@ -17,4 +17,4 @@ AddOutputFilterByType DEFLATE image/svg+xml
 
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.octek.co/$1 [R,L]
+RewriteRule ^(.*)$ https://www.yourdomain.com/$1 [R,L]
